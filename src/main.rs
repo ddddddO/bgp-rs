@@ -5,10 +5,6 @@ use bgp_rs::config::Config;
 
 use tokio::time::{sleep, Duration};
 
-fn main() {
-  println!("Hello, world!");
-}
-
 #[tokio::main]
 async fn main() {
   tracing_subscriber::fmt::init();
